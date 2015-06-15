@@ -1,0 +1,24 @@
+body{
+	background-color: #435a6b;
+	font-family: 'Raleway', sans-serif;
+}
+div{
+	width: 500px;
+	margin: 400 auto;
+}
+a{
+	text-decoration: none;
+	font-size: 32px;
+	color: #fff;
+	padding: 70px;
+	position: relative;
+}
+a:before,a:after{
+	position: absolute;
+}
+a:hover::before {
+	content: "["; left: -20px; 
+}
+a:hover::after { 
+	content: "]"; right:  -20px; 
+}   
